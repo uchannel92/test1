@@ -48,6 +48,8 @@ function goUpSlide() {
     let count = document.createElement('p')
     count.textContent = images[num]
     document.body.append(count)
+    document.body.style.background = 'orange'
+    alert('hi')
     console.log(images[num])
         if (num === images.length) {
             previewPic.src = images[num = 0]
