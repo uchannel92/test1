@@ -6,7 +6,7 @@ document.body.append(h1)
 
 
 function alertHello(e) {
-    alert('hi!!!')
+    // alert('hi!!!')
     console.log(e.target.innerText)
     console.log(e.target.nodeName)
 }
@@ -49,7 +49,6 @@ function goUpSlide() {
     count.textContent = images[num]
     document.body.append(count)
     document.body.style.background = 'orange'
-    alert('hi')
     console.log(images[num])
         if (num === images.length) {
             previewPic.src = images[num = 0]
